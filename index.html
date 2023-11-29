@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Web Studio</title>
+
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/showModal.js"></script>
+    <script src="./assets/js/burger.js"></script>
+  </head>
+  <body>
+    <!----- NAVBAR ----->
+    <navbar class="navbar">
+      <div class="logo">
+        <img src="./assets/images/Logo.svg" />
+      </div>
+      <nav class="nav-links">
+        <a href="#" class="active">Studio</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="#">Contacts</a>
+      </nav>
+      <div class="contacts">
+        <a class="mail" href="mailto:info@devstudio.com">
+          info@devstudio.com
+        </a>
+        <a class="number" href="tel:+11 (000) 111-11-11">
+          +11 (000) 111-11-11
+        </a>
+      </div>
+      <div class="burger"><span></span></div>
+    </navbar>
+    <!----- MENU ----->
+    <div class="menu">
+      <nav class="menu-nav">
+        <a href="#" class="active">Studio</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="#">Contacts</a>
+      </nav>
+      <div class="menu-contacts">
+        <a class="number" href="tel:+11 (000) 111-11-11">
+          +11 (000) 111-11-11
+        </a>
+        <a class="mail" href="mailto:info@devstudio.com">
+          info@devstudio.com
+        </a>
+        <div class="menu-social-media">
+          <a href="#">
+            <img src="./assets/images/inst.svg" alt="" />
+          </a>
+          <a href="#">
+            <img src="./assets/images/twit.svg" alt="" />
+          </a>
+          <a href="#">
+            <img src="./assets/images/fb.svg" alt="" />
+          </a>
+          <a href="#">
+            <img src="./assets/images/in.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!----- HEADER ----->
+    <header class="header">
+      <h1>
+        Effective Solutions
+        <br />
+        for Your Business
+      </h1>
+      <button>Order Service</button>
+    </header>
+    <!----- MODAL ----->
+    <div class="modal-wrapper">
+      <div class="modal">
+        <button class="modal-btn">+</button>
+        <h3 class="modal-header">
+          Leave your contacts and we will call you back
+        </h3>
+        <form class="modal-form">
+          <label for="name">Name</label>
+          <input type="text" name="name" />
+          <label for="number">Phone</label>
+          <input type="tel" name="number" />
+          <label for="email">Email</label>
+          <input type="email" name="email" />
+          <label for="comment">Comment</label>
+          <input type="text" name="comment" />
+
+          <label class="checkbox">
+            <input type="checkbox" class="real-checkbox" />
+            <span class="custom-checkbox"></span>
+            I accept the terms and conditions of the Privacy
+            Policy
+          </label>
+
+          <button class="form-btn" type="submit">
+            Send
+          </button>
+        </form>
+      </div>
+    </div>
+    <!----- CONTENT ----->
+    <div class="doing">
+      <div class="doing-cards">
+        <div class="card">
+          <div class="card-img">
+            <img src="./assets/images/antenna.svg" alt="" />
+          </div>
+          <h3 class="card-title">Strategy</h3>
+          <p class="card-description">
+            Our goal is to identify the business problem to
+            walk away with the perfect and creative
+            solution.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./assets/images/clock.svg" alt="" />
+          </div>
+          <h3 class="card-title">Punctuality</h3>
+          <p class="card-description">
+            Bring the key message to the brand's audience
+            for the best price within the shortest possible
+            time.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./assets/images/diagram.svg" alt="" />
+          </div>
+          <h3 class="card-title">Diligence</h3>
+          <p class="card-description">
+            Research and confirm brands that present the
+            strongest digital growth opportunities and
+            minimize risk.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img
+              src="./assets/images/astronaut.svg"
+              alt=""
+            />
+          </div>
+          <h3 class="card-title">Technologies</h3>
+          <p class="card-description">
+            Design practice focused on digital experiences.
+            We bring forth a deep passion for
+            problem-solving.
+          </p>
+        </div>
+      </div>
+      <h2 class="doing-title">What are we doing</h2>
+      <div class="doing-imgs">
+        <div class="img-wrapper">
+          <img src="./assets/images/doing1.jpg" alt="" />
+        </div>
+        <div class="img-wrapper">
+          <img src="./assets/images/doing2.jpg" alt="" />
+        </div>
+        <div class="img-wrapper">
+          <img src="./assets/images/doing3.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="team">
+      <h2 class="team-title">Our Team</h2>
+      <div class="team-cards">
+        <div class="card">
+          <img src="./assets/images/img-3.png" alt="" />
+          <h3 class="card-name">Mark Guerrero</h3>
+          <span class="card-job">Product Designer</span>
+          <div class="links">
+            <a href="#">
+              <img src="./assets/images/inst.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="./assets/images/twit.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="./assets/images/fb.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="./assets/images/in.svg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/img-2.png" alt="" />
+          <h3 class="card-name">Tom Ford</h3>
+          <span class="card-job">Frontend Developer</span>
+          <div class="links">
+            <a href="#">
+              <img src="./assets/images/inst.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="./assets/images/twit.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="./assets/images/fb.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="./assets/images/in.svg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/img-1.png" alt="" />
+          <h3 class="card-name">Camila Garcia</h3>
+          <span class="card-job">Marketing</span>
+          <div class="links">
+            <a href="#">
+              <img src="./assets/images/inst.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="./assets/images/twit.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="./assets/images/fb.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="./assets/images/in.svg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/img.png" alt="" />
+          <h3 class="card-name">Daniel Wilson</h3>
+          <span class="card-job">UI Designer</span>
+          <div class="links">
+            <a href="#">
+              <img src="./assets/images/inst.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="./assets/images/twit.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="./assets/images/fb.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="./assets/images/in.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="customers">
+      <h2 class="customers-title">Customers</h2>
+      <div class="companies">
+        <div class="img-wrapper">
+          <img src="./assets/images/company1.svg" alt="" />
+        </div>
+        <div class="img-wrapper">
+          <img src="./assets/images/company2.svg" alt="" />
+        </div>
+        <div class="img-wrapper">
+          <img src="./assets/images/company3.svg" alt="" />
+        </div>
+        <div class="img-wrapper">
+          <img src="./assets/images/company4.svg" alt="" />
+        </div>
+        <div class="img-wrapper">
+          <img src="./assets/images/company5.svg" alt="" />
+        </div>
+        <div class="img-wrapper">
+          <img src="./assets/images/company6.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="web-studio">
+        <img src="./assets/images/Logo2.svg" alt="" />
+        <p>
+          Increase the flow of customers and sales for your
+          business with digital marketing & growth
+          solutions.
+        </p>
+      </div>
+      <div class="social-media">
+        <h3>Social media</h3>
+        <div class="links">
+          <a href="#">
+            <img src="./assets/images/inst.svg" alt="" />
+          </a>
+          <a href="#">
+            <img src="./assets/images/twit.svg" alt="" />
+          </a>
+          <a href="#">
+            <img src="./assets/images/fb.svg" alt="" />
+          </a>
+          <a href="#">
+            <img src="./assets/images/in.svg" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="subscribe-form">
+        <h3>Subscribe</h3>
+        <form>
+          <input type="email" placeholder="E-mail" />
+          <button>
+            Subscribe
+            <img src="./assets/images/send.svg" alt="" />
+          </button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>

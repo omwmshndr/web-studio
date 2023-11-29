@@ -1,0 +1,83 @@
+.menu {
+	display: none;
+}
+
+.menu.active {
+	display: grid;
+	background-color: $white;
+	height: calc(100vh - 72px);
+	padding: 40px;
+	padding-right: 0px;
+}
+
+.menu-nav {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.menu-nav a {
+	position: relative;
+	text-decoration: none;
+	color: $navy-blue;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 0.32px;
+}
+
+.menu-nav a::after {
+	content: "";
+	position: absolute;
+	border-radius: 2px;
+	width: 0px;
+	background-color: $ocean;
+	height: 4px;
+	bottom: -26px;
+	right: 0;
+	transition: all .2s ease;
+}
+
+.menu-nav a:hover::after {
+	width: 100%;
+}
+
+
+.menu-nav .active {
+	color: $ocean;
+}
+
+.menu-contacts {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	align-self: end;
+}
+
+.menu-contacts a {
+	text-decoration: none;
+	font-family: Roboto;
+}
+
+.menu-contacts .number {
+	color: $iris;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 0.72px;
+}
+
+.menu-contacts .mail {
+	color: $slate;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 0.4px;
+}
+
+.menu-social-media {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 40px;
+}
+
+.menu-social-media a>img {
+	width: 48px;
+}
