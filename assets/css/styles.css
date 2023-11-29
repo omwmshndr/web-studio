@@ -611,7 +611,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 96px 108px;
+    padding: 96px 80px;
   }
 }
 body.lock {
