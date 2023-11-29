@@ -7,13 +7,17 @@
 }
 
 .portfolio-sort {
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	gap: 24px;
 	margin-bottom: 72px;
+	flex-wrap: wrap;
+
 }
 
 .sort-btn {
+	flex: 0 0 auto;
 	cursor: pointer;
 	padding: 12px 24px;
 	border-radius: 4px;
@@ -47,6 +51,12 @@
 
 .portfolio-cards>.card>.card-img-wrapper {
 	margin-bottom: 32px;
+	overflow: hidden;
+}
+
+.portfolio-cards>.card>.card-img-wrapper>img {
+	width: 100%;
+	height: 100%;
 }
 
 .portfolio-cards>.card>.card-header {
@@ -85,4 +95,12 @@
 	}
 }
 
-@media only screen and (max-width:428px) {}
+@media only screen and (max-width:428px) {
+	.portfolio {
+		padding: 48px 16px;
+	}
+
+	.portfolio-cards>.card {
+		width: 300px;
+	}
+}
